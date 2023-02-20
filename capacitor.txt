@@ -1,0 +1,5 @@
+1.nx run build client
+2. WebViewLocalServer.java
+3.npx cap sync 
+4. npx cap open android  
+5.androidx.core.content.FileProvider   

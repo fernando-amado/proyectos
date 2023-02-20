@@ -1,0 +1,17 @@
+CREAR COMPONENTE 
+nx g @nrwl/angular:component components/button --project=angular
+
+CREAR ARCHIVO EN EL STORYBOOK
+nx g @nrwl/angular:stories angular
+
+CORRER STORYBBOK
+nx run angular:storybook
+
+COMANDO PARA GENERAR VERSION IR AL PROJECTO
+npm version prerelease --preid=rc
+
+COMANDO BUILD 
+nx build angular
+
+COMANDO PARA GENERAR VERSION FINAL
+npm version patch
